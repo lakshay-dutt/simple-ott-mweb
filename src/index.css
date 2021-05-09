@@ -20,9 +20,14 @@ code {
 .scroll-effect {
   max-height: 90%;
   overflow: auto;
+  height: 100%;
 }
 .scroll-effect::-webkit-scrollbar {
   display: none;
   width: 0; /* Remove scrollbar space */
   background: transparent;
+}
+
+.content-image {
+  max-height: 180px;
 }
