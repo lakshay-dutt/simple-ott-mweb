@@ -17,7 +17,7 @@ const Card = ({ item }) => {
   );
 };
 const CardsGrid = ({ contentItems }) => {
-  const [items, setItems] = useState(18);
+  const [items] = useState(18);
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);

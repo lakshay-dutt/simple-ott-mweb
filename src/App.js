@@ -3,7 +3,6 @@ import * as Back from "./assets/Back.png";
 import * as Search from "./assets/search.png";
 import page from "./api/CONTENTLISTINGPAGE-PAGE1.json";
 import CardsGrid from "./components/CardsGrid";
-import useScroll from "./hooks/scrollHook";
 
 function Header() {
   return (
